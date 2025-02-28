@@ -8,6 +8,12 @@ This Python library simplifies integrating the IBM Granite language model into a
 
 An IBM Cloud account with access to the IBM Watson Natural Language Understanding service and the Granite model.
 
+## Features
+
+* **Simplified API:**  Uses an OpenAI-like API structure for easier integration if you're already familiar with OpenAI's libraries.
+* **Automatic Token Refresh:** The client automatically refreshes the access token when it expires, ensuring uninterrupted operation.  This handles the common 401 (Unauthorized) error gracefully.
+* **Error Handling:** Includes robust error handling for API requests, providing informative error messages.
+* **IBM Granite-Specific Formatting:** Handles the differences in formatting between the OpenAI API style and the IBM Granite API.
 ### 1. Installation
 
 ```bash
@@ -20,6 +26,11 @@ Before running, set these environment variables:
 
 - `API_KEY`: Your IBM Cloud API key (from your IBM Cloud account).
 - `PROJECT_ID`: Your IBM Granite project ID (from your IBM Watson project settings).
+
+```bash
+export API_KEY="YOUR_API_KEY"
+export PROJECT_ID="YOUR_PROJECT_ID"
+```
 
 ### 3. Running the Code (`granite.py`)
 
