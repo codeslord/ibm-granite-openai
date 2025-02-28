@@ -95,4 +95,3 @@ Remember to install `requests`, set environment variables, and adjust parameters
 
 ## Contributions Welcome!
 
-This documentation is based on the provided `granite.py` file. Further improvements, including more comprehensive error handling are welcome.
