@@ -1,12 +1,12 @@
 # IBM Granite Client for Existing OpenAI Applications
 
-This Python library simplifies integrating the IBM Granite language model into applications currently using the OpenAI API. It mimics the OpenAI API structure for a smoother transition.
+This Python library is an openai compatible ibm granite client. It simplifies integrating the IBM Granite language model into applications currently using the OpenAI API. It mimics the OpenAI API structure for a smoother transition.
 
 ## Usage
 
 ### Prerequisites
 
-An IBM Cloud account with access to the IBM Watson Natural Language Understanding service and the Granite model.
+An IBM Cloud account with access to the IBM Watson Natural Language Understanding service and the Granite model. Just add the granite.py file to your project.
 
 ## Features
 
@@ -27,6 +27,7 @@ Before running, set these environment variables:
 - `API_KEY`: Your IBM Cloud API key (from your IBM Cloud account).
 - `PROJECT_ID`: Your IBM Granite project ID (from your IBM Watson project settings).
 
+Eg: in Linux
 ```bash
 export API_KEY="YOUR_API_KEY"
 export PROJECT_ID="YOUR_PROJECT_ID"
